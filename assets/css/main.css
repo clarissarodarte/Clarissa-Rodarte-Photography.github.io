@@ -1,15 +1,4 @@
-/**
-* Template Name: PhotoFolio - v1.2.0
-* Template URL: https://bootstrapmade.com/photofolio-bootstrap-photography-website-template/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
 
-/*--------------------------------------------------------------
-# Set main reusable colors and fonts using CSS variables
-# Learn more about CSS variables at https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_custom_properties
---------------------------------------------------------------*/
-/* Fonts */
 :root {
   --font-default: "Open Sans", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   --font-primary: "Inter", sans-serif;
@@ -18,9 +7,9 @@
 
 /* Colors */
 :root {
-  --color-default: #fafafa;
-  --color-primary: #8D9477;
-  --color-secondary: #161718;
+  --color-default: #000000;
+  --color-primary: #000000;
+  --color-secondary: #ffffff;
 }
 
 /* Smooth scroll behavior */
@@ -34,7 +23,7 @@
 body {
   font-family: var(--font-default);
   color: var(--color-default);
-  background-color: #1C1C1E;
+  background-color: #ffff;
 }
 
 a {
@@ -43,7 +32,7 @@ a {
 }
 
 a:hover {
-  color: #db2121;
+  color: #8D9477;
   text-decoration: none;
 }
 
@@ -71,7 +60,7 @@ h6 {
   margin: 0 0 5px 0;
   letter-spacing: 2px;
   text-transform: uppercase;
-  color: rgba(255, 255, 255, 0.6);
+  color: rgb(255, 255, 255);
   font-family: var(--font-primary);
 }
 
@@ -80,7 +69,7 @@ h6 {
   width: 120px;
   height: 1px;
   display: inline-block;
-  background: #5bd9a9;
+  background: #8D9477;
   margin: 4px 10px;
 }
 
@@ -105,7 +94,7 @@ h6 {
 .page-header h2 {
   font-size: 56px;
   font-weight: 500;
-  color: #fff;
+  color: #000000;
   font-family: var(--font-secondary);
 }
 
@@ -134,7 +123,7 @@ h6 {
 }
 
 .page-header .cta-btn:hover {
-  background: #2cbc85;
+  background: #8D9477;
 }
 
 /*--------------------------------------------------------------
@@ -319,7 +308,7 @@ h6 {
   transition: all 0.5s;
   z-index: 997;
   padding: 30px 0;
-  background-color: #000;
+  background-color: #ffffff;
 }
 
 .header .logo {
@@ -335,7 +324,7 @@ h6 {
   font-size: 32px;
   margin: 0;
   font-weight: 400;
-  color: #fff;
+  color: #000000;
   font-family: var(--font-secondary);
 }
 
@@ -360,7 +349,7 @@ h6 {
 }
 
 .header .header-social-links a {
-  color: rgba(255, 255, 255, 0.5);
+  color: rgba(0, 0, 0);
   padding-left: 15px;
   display: inline-block;
   line-height: 0px;
@@ -369,7 +358,7 @@ h6 {
 }
 
 .header .header-social-links a:hover {
-  color: #fff;
+  color: #db2121;
 }
 
 @media (max-width: 575px) {
@@ -409,7 +398,7 @@ h6 {
     letter-spacing: 1px;
     font-size: 13px;
     font-weight: 400;
-    color: rgba(255, 255, 255, 0.5);
+    color: rgb(88, 47, 47);
     white-space: nowrap;
     transition: 0.3s;
   }
@@ -425,7 +414,7 @@ h6 {
   .navbar .active,
   .navbar .active:focus,
   .navbar li:hover>a {
-    color: #fff;
+    color: #8D9477;
   }
 
   .navbar .dropdown ul {
@@ -461,7 +450,7 @@ h6 {
   .navbar .dropdown ul a:hover,
   .navbar .dropdown ul .active:hover,
   .navbar .dropdown ul li:hover>a {
-    color: #fff;
+    color: #8D9477; 
   }
 
   .navbar .dropdown:hover>ul {
@@ -522,7 +511,7 @@ h6 {
     inset: 0;
     padding: 50px 0 10px 0;
     margin: 0;
-    background: rgba(0, 0, 0, 0.9);
+    background: rgba(255, 255, 255, 0.9);
     overflow-y: auto;
     transition: 0.3s;
     z-index: 9998;
@@ -538,7 +527,7 @@ h6 {
     font-size: 13px;
     text-transform: uppercase;
     font-weight: 400;
-    color: rgba(255, 255, 255, 0.5);
+    color: rgba(0, 0, 0, 0.8);
     letter-spacing: 1px;
     white-space: nowrap;
     transition: 0.3s;
@@ -555,7 +544,7 @@ h6 {
   .navbar .active,
   .navbar .active:focus,
   .navbar li:hover>a {
-    color: #fff;
+    color: #8D9477;
   }
 
   .navbar .dropdown ul,
@@ -574,7 +563,7 @@ h6 {
   }
 
   .mobile-nav-show {
-    color: #fff;
+    color: #000000;
     font-size: 28px;
     cursor: pointer;
     line-height: 0;
@@ -607,7 +596,7 @@ h6 {
     content: "";
     position: fixed;
     inset: 0;
-    background: rgba(22, 23, 24, 0.8);
+    background: rgba(255, 255, 255, 0.8);
     z-index: 9996;
   }
 }
@@ -682,12 +671,12 @@ h6 {
   font-size: 18px;
   font-weight: bold;
   margin: 10px 0 5px 0;
-  color: #fff;
+  color: #000000;
 }
 
 .testimonials .testimonial-item h4 {
   font-size: 14px;
-  color: rgba(255, 255, 255, 0.5);
+  color: rgba(0, 0, 0, 0.5);
   margin: 0;
 }
 
@@ -903,7 +892,7 @@ h6 {
 }
 
 .gallery-single .portfolio-info .btn-visit:hover {
-  background: #2cbc85;
+  background: #8D9477;
 }
 
 .gallery-single .portfolio-description h2 {
@@ -949,7 +938,7 @@ h6 {
 
 .gallery-single .portfolio-description .testimonial-item .quote-icon-left,
 .gallery-single .portfolio-description .testimonial-item .quote-icon-right {
-  color: #5bd9a9;
+  color: #8D9477;
   font-size: 26px;
   line-height: 0;
 }
@@ -1016,7 +1005,7 @@ h6 {
 }
 
 .services .service-item h4 a {
-  color: #fff;
+  color: #000000;
 }
 
 .services .service-item p {
@@ -1079,11 +1068,11 @@ h6 {
 
 .contact .info-item i {
   font-size: 20px;
-  color: var(--color-primary);
+  color: #ffffff;
   float: left;
   width: 44px;
   height: 44px;
-  background: #222425;
+  background: #000000;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -1097,19 +1086,19 @@ h6 {
   font-size: 20px;
   font-weight: 600;
   margin-bottom: 5px;
-  color: rgba(255, 255, 255, 0.5);
+  color: rgba(0, 0, 0, 0.5);
 }
 
 .contact .info-item p {
   padding: 0;
   margin-bottom: 0;
   font-size: 14px;
-  color: #fff;
+  color: #000000;
 }
 
 .contact .info-item:hover i {
   background: var(--color-primary);
-  color: #fff;
+  color: #8D9477;
 }
 
 .contact .php-email-form {
@@ -1220,7 +1209,7 @@ h6 {
 .hero {
   width: 100%;
   min-height: 30vh;
-  background: #000;
+  background: #ffffff;
   background-size: cover;
   position: relative;
   padding: 140px 0 60px 0;
@@ -1230,7 +1219,7 @@ h6 {
   margin: 0 0 10px 0;
   font-size: 38px;
   font-weight: 700;
-  color: #fff;
+  color: #000000;
   font-family: var(--font-secondary);
 }
 
@@ -1253,7 +1242,7 @@ h6 {
 }
 
 .hero p {
-  color: rgba(255, 255, 255, 0.6);
+  color: rgba(41, 41, 41, 0.6);
   margin-bottom: 30px;
   font-size: 18px;
 }
@@ -1273,7 +1262,7 @@ h6 {
 }
 
 .hero .btn-get-started:hover {
-  background: #2cbc85;
+  background: #8D9477;
 }
 
 @media (max-width: 768px) {
@@ -1294,14 +1283,14 @@ h6 {
 
 .footer .copyright {
   text-align: center;
-  color: rgba(255, 255, 255, 0.8);
+  color: rgba(0, 0, 0, 0.8);
 }
 
 .footer .credits {
   padding-top: 6px;
   text-align: center;
   font-size: 13px;
-  color: rgba(255, 255, 255, 0.8);
+  color: rgba(0, 0, 0, 0.8);
 }
 
 .footer .credits a {
