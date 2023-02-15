@@ -32,7 +32,7 @@ a {
 }
 
 a:hover {
-  color: #8D9477;
+  color: #7A0000;
   text-decoration: none;
 }
 
@@ -69,7 +69,7 @@ h6 {
   width: 120px;
   height: 1px;
   display: inline-block;
-  background: #8D9477;
+  background: #7A0000;
   margin: 4px 10px;
 }
 
@@ -123,7 +123,7 @@ h6 {
 }
 
 .page-header .cta-btn:hover {
-  background: #8D9477;
+  background: #7A0000;
 }
 
 /*--------------------------------------------------------------
@@ -414,7 +414,7 @@ h6 {
   .navbar .active,
   .navbar .active:focus,
   .navbar li:hover>a {
-    color: #8D9477;
+    color: #7A0000;
   }
 
   .navbar .dropdown ul {
@@ -450,7 +450,7 @@ h6 {
   .navbar .dropdown ul a:hover,
   .navbar .dropdown ul .active:hover,
   .navbar .dropdown ul li:hover>a {
-    color: #8D9477; 
+    color: #7A0000; 
   }
 
   .navbar .dropdown:hover>ul {
@@ -544,7 +544,7 @@ h6 {
   .navbar .active,
   .navbar .active:focus,
   .navbar li:hover>a {
-    color: #8D9477;
+    color: #7A0000;
   }
 
   .navbar .dropdown ul,
@@ -892,7 +892,7 @@ h6 {
 }
 
 .gallery-single .portfolio-info .btn-visit:hover {
-  background: #8D9477;
+  background: #7A0000;
 }
 
 .gallery-single .portfolio-description h2 {
@@ -938,7 +938,7 @@ h6 {
 
 .gallery-single .portfolio-description .testimonial-item .quote-icon-left,
 .gallery-single .portfolio-description .testimonial-item .quote-icon-right {
-  color: #8D9477;
+  color: #7A0000;
   font-size: 26px;
   line-height: 0;
 }
@@ -1098,7 +1098,7 @@ h6 {
 
 .contact .info-item:hover i {
   background: var(--color-primary);
-  color: #8D9477;
+  color: #7A0000;
 }
 
 .contact .php-email-form {
@@ -1262,7 +1262,7 @@ h6 {
 }
 
 .hero .btn-get-started:hover {
-  background: #8D9477;
+  background: #7A0000;
 }
 
 @media (max-width: 768px) {
